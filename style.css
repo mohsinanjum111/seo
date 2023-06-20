@@ -1,0 +1,1834 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* MAIN CONTAINER */
+
+.header{
+    background: linear-gradient(to right , rgb(22, 0, 147) ,rgb(22, 107, 244));
+    border-radius: 0% 0% 10% 10%;
+    height: 800px;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 10px 0px 10px;
+}
+
+.logo img{
+    width: 220px;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 10px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: bolder;
+    margin-right: 30px;
+}
+
+nav ul li a.active{
+    color: rgb(187, 187, 187);
+}
+nav ul li a:hover{
+    color: rgb(187, 187, 187);   
+}
+
+.hor hr{
+    color: rgb(255, 255, 255);
+}
+
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 550px;
+}
+
+.banner .banner-desc{
+    width: 50%;
+}
+
+
+.banner .banner-desc h1{
+    font-size: 45px;
+    color: white;
+    line-height: 60px;
+    font-weight: bolder;
+    margin-bottom: 30px;
+}
+
+.banner .banner-desc p{
+    color: white;
+    font-size: 15px;
+    line-height: 35px;
+    margin-bottom: 30px;
+}
+
+.banner .banner-desc .getstart{
+    background-color: rgb(255, 81, 0);
+    color: white;
+    border-radius: 5px;
+    padding: 13px 35px;
+    font-weight: bolder;
+}
+
+.banner .banner-desc .getstart:hover{
+    color: rgb(59, 32, 159);
+    background-color: white;
+}
+
+.banner .banner-desc .discover{
+    background-color: rgb(26, 20, 50);
+    color: white;
+    border-radius: 5px;
+    padding: 13px 35px;
+    font-weight: bolder;
+}
+
+.banner .banner-desc .discover:hover{
+    color: rgb(59, 32, 159);
+    background-color: white;
+}
+button{
+    border: none;
+}
+
+
+.banner .banner-img{
+    width: 50%;
+}
+
+.banner .banner-img img{
+    width:100%;
+}
+
+.categories .container{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    margin-top: -100px;
+}
+
+.seo{
+    width: 31%;
+    padding: 30px;
+    border-radius: 10px;
+    border-bottom: 3px solid orangered;
+    box-shadow: 0px 2px 10px rgb(222, 238, 255);
+    background-color: white;
+    box-sizing: border-box;
+}
+.seo .p1{
+    font-size: 30px;
+    font-weight: 400;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.seo .p2{
+    font-size: 17px;
+    line-height: 30px;
+    padding-bottom:15px ;
+}
+
+.research{
+    width: 31%;
+    padding: 30px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    background-color: orangered ;
+    color: white;
+    box-shadow: 0px 2px 10px rgb(222, 238, 255);
+}
+
+.research .p1{
+    font-size: 30px;
+    font-weight: 400;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.research .p2{
+    font-size: 17px;
+    line-height: 30px;
+    padding-bottom:15px ;
+}
+
+.global{
+    width: 31%;
+    padding: 30px;
+    border-radius: 10px;
+    border-bottom: 3px solid orangered;
+    box-shadow: 0px 2px 10px rgb(222, 238, 255);
+    background-color: white;
+    box-sizing: border-box;
+}
+
+.global .p1{
+    font-size: 30px;
+    font-weight: 400;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.global .p2{
+    font-size: 17px;
+    line-height: 30px;
+    padding-bottom:15px ;
+}
+
+.teamdiscus .container{
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content:  center;
+    padding: 50px;
+    margin-top: 70px;
+}
+.container .leftteam{
+    width: 50%;
+}
+.container .leftteam img{
+    width: 90%;
+}
+
+.container .rightteam{
+    width: 50%;
+}
+
+.container .rightteam .ba-desc{
+    font-size: 22px;
+    color: orangered;
+    font-weight: 450px;
+}
+
+.container .rightteam .ba-heading{
+    font-size:42px;
+    font-weight: 700px;
+    line-height: 60px;
+    margin-bottom: 20px;
+}
+
+.container .rightteam .ba-para{
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 40px;
+}
+
+.container .rightteam .tick{
+    margin-top: 20px;
+    display: flex;
+    align-items: top;
+    justify-content: left;
+}
+
+.container .rightteam .tick .tickimg img{
+    padding-right: 20px;
+    width: 80px;
+}
+.container .rightteam .tick .imgtext .p1{
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.container .rightteam .tick .imgtext .p2{
+    margin-top: -10px;
+    font-size: 18px;
+}
+
+.fourdivs{
+    margin-top: 70px;
+}
+
+.grow{
+    text-align: center;
+    width: 40%;
+    margin: 0 auto;
+}
+
+.grow .grow-para{
+    color: orangered;
+    font-size: 22px;
+}
+.grow .grow-heading{
+    font-size: 40px;
+}
+
+.container .innerdivs{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: 60px auto 10px auto;
+    padding: 30px;
+    box-shadow: 0px 1px 30px rgb(225, 240, 255);
+}
+
+.container .innerdivs .d1{
+margin-right: 30px;
+width: 15%;
+}
+.container .innerdivs .d1 img{
+    width: 100%;
+}
+
+.container .innerdivs .d1-text {
+    width: 60%;
+}
+
+.container .innerdivs .d1-text .p1{
+    font-size: 26px;
+    width: 100%;
+    line-height: 50px;
+}
+.container .innerdivs .d1-text .p2{
+    line-height: 35px;
+    width: 100%;
+    font-size: 18px;
+    width:100%;
+}
+
+.container .innerdivs .button{
+    width: 26%;
+    display: flex;
+    justify-content: end;
+}
+
+.container .innerdivs .button .growbtn{
+    background-color: rgb(28, 12, 91);
+    color: white;
+    border-radius: 5px;
+    padding: 13px 35px;
+    font-weight: bolder;
+}
+
+.container .innerdivs .button .growbtn:hover{
+    color: white;
+    background-color: orangered;
+}
+
+.container .innerdivs2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: 20px auto 10px auto;
+    padding: 30px;
+    box-shadow: 0px 1px 30px rgb(225, 240, 255);
+}
+
+.container .innerdivs2 .d1{
+margin-right: 30px;
+width: 15%;
+}
+.container .innerdivs2 .d1 img{
+    width: 100%;
+}
+
+.container .innerdivs2 .d1-text {
+    width: 60%;
+}
+
+.container .innerdivs2 .d1-text .p1{
+    font-size: 26px;
+    width: 100%;
+    line-height: 50px;
+}
+.container .innerdivs2 .d1-text .p2{
+    line-height: 35px;
+    width: 100%;
+    font-size: 18px;
+    width:100%;
+}
+
+.container .innerdivs2 .button{
+    width: 26%;
+    display: flex;
+    justify-content: end;
+}
+
+.container .innerdivs2 .button .growbtn{
+    background-color: orangered;
+    color: white;
+    border-radius: 5px;
+    padding: 13px 35px;
+    font-weight: bolder;
+}
+
+.container .innerdivs2 .button .growbtn:hover{
+    color: white;
+    background-color: rgb(28, 12, 91);
+}
+
+.container .innerdivs3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: 20px auto 10px auto;
+    padding: 30px;
+    box-shadow: 0px 1px 30px rgb(225, 240, 255);
+}
+
+.container .innerdivs3 .d1{
+margin-right: 30px;
+width: 15%;
+}
+.container .innerdivs3 .d1 img{
+    width: 100%;
+}
+
+.container .innerdivs3 .d1-text {
+    width: 60%;
+}
+
+.container .innerdivs3 .d1-text .p1{
+    font-size: 26px;
+    width: 100%;
+    line-height: 50px;
+}
+.container .innerdivs3 .d1-text .p2{
+    line-height: 35px;
+    width: 100%;
+    font-size: 18px;
+    width:100%;
+}
+
+.container .innerdivs3 .button{
+    width: 26%;
+    display: flex;
+    justify-content: end;
+}
+
+.container .innerdivs3 .button .growbtn{
+    background-color: rgb(28, 12, 91);
+    color: white;
+    border-radius: 5px;
+    padding: 13px 35px;
+    font-weight: bolder;
+}
+
+.container .innerdivs3 .button .growbtn:hover{
+    color: white;
+    background-color:  orangered;
+}
+
+.container .innerdivs4{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: 20px auto 10px auto;
+    padding: 30px;
+    box-shadow: 0px 1px 30px rgb(225, 240, 255);
+}
+
+.container .innerdivs4 .d1{
+margin-right: 30px;
+width: 15%;
+}
+.container .innerdivs4 .d1 img{
+    width: 100%;
+}
+
+.container .innerdivs4 .d1-text {
+    width: 60%;
+}
+
+.container .innerdivs4 .d1-text .p1{
+    font-size: 26px;
+    width: 100%;
+    line-height: 50px;
+}
+.container .innerdivs4 .d1-text .p2{
+    line-height: 35px;
+    width: 100%;
+    font-size: 18px;
+    width:100%;
+}
+
+.container .innerdivs4 .button{
+    width: 26%;
+    display: flex;
+    justify-content: end;
+}
+
+.container .innerdivs4 .button .growbtn{
+    background-color: rgb(28, 12, 91);
+    color: white;
+    border-radius: 5px;
+    padding: 13px 35px;
+    font-weight: bolder;
+}
+
+.container .innerdivs4 .button .growbtn:hover{
+    color: white;
+    background-color:  orangered;
+}
+
+.teamdiscus2{
+    background: linear-gradient(to right , rgb(22, 0, 147) ,rgb(22, 107, 244));
+    margin-top: 120px;
+}
+
+.teamdiscus2 .container{
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content:  center;
+    padding-top: 70px;
+    padding-bottom:70px ;
+    color: white;
+    /* margin-top: 70px; */
+}
+.teamdiscus2 .container .rightteam{
+    width: 50%;
+}
+.teamdiscus2 .container .rightteam img{
+    width: 100%;
+}
+
+.teamdiscus2 .container .leftteam{
+    width: 50%;
+}
+
+.teamdiscus2 .container .leftteam .ba-desc{
+    font-size: 22px;
+    color: orangered;
+    font-weight: 450px;
+}
+
+.teamdiscus2 .container .leftteam .ba-heading{
+    font-size:42px;
+    font-weight: 700px;
+    line-height: 60px;
+    margin-bottom: 20px;
+}
+
+.teamdiscus2 .container .leftteam .ba-para{
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 40px;
+}
+
+.teamdiscus2 .container .leftteam .tick{
+    margin-top: 20px;
+    display: flex;
+    align-items: top;
+    justify-content: left;
+}
+
+.teamdiscus2 .container .leftteam .tick .tickimg img{
+    padding-right: 20px;
+    width: 80px;
+}
+.teamdiscus2 .container .leftteam .tick .imgtext .p1{
+    font-weight: bolder;
+    font-size: 20px;
+}
+.teamdiscus2 .container .leftteam .tick .imgtext .p2{
+    margin-top: -10px;
+    font-size: 18px;
+}
+
+.team .container{
+    margin-top: 100px;
+}
+
+.team .container .teamheader{
+    text-align: center;
+}
+.team .container .teamheader p{
+    font-size: 22px;
+    color: orangered;
+    font-weight: 450px;
+
+}
+.team .container .teamheader h1{
+    font-size:36px;
+    line-height: 40px;
+    margin-bottom: 20px;
+}
+.teamgallery{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.team .container .teamgallery .img1{
+    width: 24%;
+    text-align: center;
+    overflow:hidden;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.team .container .teamgallery .img1 .image {
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.team .container .teamgallery .img1 .image img{
+    width: 100%;
+    transition: transform 0.5s;
+}
+.team .container .teamgallery .img1 img:hover{
+    transform: scale(1.1);
+}
+.team .container .teamgallery .img1 .icons i{
+    padding: 4px;
+    font-size: 15px;
+}
+.acordians{
+    margin-top: 80px;
+}
+.acordians .container{
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content:  space-between;
+    padding-top: 70px;
+    padding-bottom:70px ;
+    width: 100%;
+    /* background-color: #00ffff; */
+}
+.acordians .container .leftteam{
+    width: 55%;
+}
+.acordians .container .leftteam .ba-desc{
+    font-size: 22px;
+    color: orangered;
+    font-weight: 450px;
+}
+.acordians .container .leftteam .ba-heading{
+    font-size:40px;
+    line-height: 50px;
+    margin-bottom: 20px;
+}
+
+.acordians .container .rightteam{
+    width: 40%;
+}
+.acordians .container .rightteam img{
+ 
+    width: 80%;
+}
+.accdrop{
+    font-size: 18px;
+}
+
+.testmonial{
+    background-image: url('images/map.png');
+    height: 650px;
+    background-color: rgba(167, 167, 167, 0.219);
+}
+.testmonial .container{
+    display: flex;
+    justify-content: center;
+}
+
+.testmon{
+    width: 60%;
+    text-align: center;
+    margin:0 auto;
+    /* background-color: aqua; */
+    margin-top: 50px;
+
+}
+
+.testmon .test-head{
+    font-size: 22px;
+    color: orangered;
+    font-weight: 450px;
+}
+.testmon h2{
+    font-size: 36px;
+    font-weight: normal;
+    margin-bottom: 30px;
+}
+.testmon img{
+    margin-bottom: 30px;
+}
+.testmon .france{
+    margin-bottom: 0px;
+    font-weight: bolder;
+}
+.testmon .melborn{
+    font-size: 14px;
+}
+.contact .container{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: orangered;
+    padding: 40px;
+    border-radius: 10px;
+    margin-top: -180px;
+    position: relative;
+    z-index: 2;
+    
+}
+.contact .text{
+    width: 50%;
+}
+.contact .text h1{
+    /* width: 30%; */
+    color: white;
+    letter-spacing: 5px;
+}
+.contact .inp{
+    width: 40%;    
+}
+.contact .inp input{
+    width: 95%;  
+    padding: 13px 35px ;
+    border-radius: 5px;  
+    border: none;
+}
+.contact .subscribe{
+    background-color: rgb(28, 12, 91);
+    color: white;
+    border-radius: 5px;
+    padding: 13px 35px;
+    font-weight: bolder;
+}
+.container .subscribe:hover{
+    color: orangered;
+    background-color:  white;
+}
+
+
+.fotter{
+    position: relative;
+    margin-top: -103px;
+    background-color: rgb(51, 48, 48);
+    z-index: 1;
+}
+.fotter .container .infot{
+    display: flex;
+    align-items: top;
+    justify-content: space-between;
+    color: white;
+    padding-top: 180px;
+    padding-bottom: 80px;
+    box-sizing: border-box;
+}
+.fotter .container .infot .about{
+    width: 45%;
+    padding-right:85px ;
+    box-sizing: border-box;
+}
+.fotter .container .infot .about h5{
+    padding-bottom: 5px;
+    color: rgb(208, 208, 208);
+}
+
+.fotter .container .infot .implinks{
+    width: 35%;
+}
+
+.fotter .container .infot .fs{
+    width: 35%;
+}
+
+.fotter .container .infot .contus{
+    width: 25%;
+}
+
+.owner{
+    width: 100%;
+    color: white;
+    padding: 10px 10px 10px 50px;
+    font-size: 22px;
+}
+.owner span{
+    color: orangered;
+}
+.hr{
+    width: 100%;
+}
+
+
+@media (max-width:1440px){
+
+    .categories .container .seo img{
+        width: 80px;
+    }
+    .seo .p1{
+        font-size: 26px;
+        padding-bottom: 12px;
+    }
+    .seo .p2{
+        font-size: 15px;
+    }      
+    .categories .container .research img{
+        width: 80px;
+    }
+    .research .p1{
+        font-size: 26px;
+        padding-bottom: 12px;
+    }
+    .research .p2{
+        font-size: 15px;
+    }
+
+    .categories .container .global img{
+        width: 80px;
+    }
+    .global .p1{
+        font-size: 26px;
+        padding-bottom: 12px;
+    }
+    .global .p2{
+        font-size: 15px;
+    }
+    .testmonial{
+        height: 750px;
+    }
+    .contact .container{
+        width: 80%;
+        margin-top: -200px;       
+    }
+    .contact .text{
+        width: 50%;
+    }
+    .contact .text h1{
+        color: white;
+        letter-spacing: 5px;
+    }
+    .contact .inp{
+        width: 40%;    
+    }
+    .contact .inp input{
+        width: 95%;  
+        padding: 13px 25px ;
+    }
+}
+
+@media (max-width:1200px){
+.seo{
+    width: 32%;
+    padding: 20px;
+    height: 350px;
+}
+.seo .p1{
+    font-size: 24px;
+}
+.seo .p2{
+    font-size: 17px;
+    line-height: 30px;
+    padding-bottom:15px ;
+}
+.research{
+    width: 32%;
+    padding: 20px;
+    height: 350px;
+}
+.research .p1{
+    font-size: 24px;
+}
+.research .p2{
+    font-size: 17px;
+    line-height: 30px;
+    padding-bottom:15px ;
+}
+.global{
+    width: 32%;
+    padding: 20px;
+    height: 350px;
+}
+.global .p1{
+    font-size: 24px;
+}
+.global .p2{
+    font-size: 17px;
+    line-height: 30px;
+    padding-bottom:15px ;
+}
+
+}
+
+@media (max-width:992px){
+.header{
+    border-radius: 0%;
+    height: 700px;
+}
+.banner .banner-img{
+    display: none;
+}
+.banner .banner-desc{
+    width: 100%;
+}
+.banner{
+    height: 450px;
+}
+.banner .banner-desc h1{
+    font-size: 42px;
+}  
+.banner .banner-desc p{
+    margin-bottom: 20px;
+}
+.seo{
+    height: 400px;
+}
+.seo .p2{
+    font-size: 15px;
+}
+.research{
+    height: 400px;
+}
+.research .p2{
+    font-size: 15px;
+}
+.global{
+    height: 400px;
+}
+.global .p2{
+    font-size: 15px;
+}
+
+.teamdiscus .container{
+    box-sizing: border-box;
+    display: block;
+    /* background-color: #00ffff; */
+    margin-top: 70px;
+}
+.container .leftteam{
+    width: 60%;
+    margin: 0 auto;
+}
+.container .leftteam img{
+    width: 100%;
+}
+   
+.container .rightteam{
+    width: 100%;
+}
+.grow{
+    width: 70%;
+}
+
+.container .innerdivs{
+    width: 100%;
+}
+.container .innerdivs .d1-text {
+    width: 70%;
+}
+.container .innerdivs .d1-text .p1{
+    font-size: 24px;
+}
+.container .innerdivs .d1-text .p2{
+    line-height: 30px;
+    font-size: 15px;
+}
+.container .innerdivs .button .growbtn{
+    padding: 10px 20px;
+    font-weight: bolder;
+}
+
+.container .innerdivs2{
+    width: 100%;    
+}
+.container .innerdivs2 .d1-text {
+    width: 70%;
+}
+.container .innerdivs2 .d1-text .p1{
+    font-size: 24px;
+}
+.container .innerdivs2 .d1-text .p2{
+    line-height: 30px;
+    font-size: 15px;
+}
+.container .innerdivs2 .button .growbtn{
+    padding: 10px 20px;
+    font-weight: bolder;
+}
+
+.container .innerdivs3{
+    width: 100%;
+}
+.container .innerdivs3 .d1-text {
+    width: 70%;
+}
+.container .innerdivs3 .d1-text .p1{
+    font-size: 24px;
+}
+.container .innerdivs3 .d1-text .p2{
+    line-height:30px;
+    font-size: 15px;
+}
+.container .innerdivs3 .button .growbtn{
+    padding: 10px 20px;
+    font-weight: bolder;
+}
+
+.container .innerdivs4{
+    width: 100%;
+}
+.container .innerdivs4 .d1-text {
+    width: 70%;
+}
+.container .innerdivs4 .d1-text .p1{
+    font-size: 24px;
+}
+.container .innerdivs4 .d1-text .p2{
+    line-height: 30px;
+    font-size: 15px;
+}
+.container .innerdivs4 .button .growbtn{
+    padding: 10px 20px;
+    font-weight: bolder;
+}
+.teamdiscus2{
+    background: linear-gradient(to right , rgb(22, 0, 147) ,rgb(22, 107, 244));
+    margin-top: 120px;
+}
+.teamdiscus2 .container{
+    display: block;
+}
+.teamdiscus2 .container .leftteam{
+    width: 100%;
+}
+
+.teamdiscus2 .container .rightteam{
+    width: 70%;
+    margin: 70px auto 0px auto;
+}
+.teamdiscus2 .container .rightteam img{
+    width: 100%;
+}
+.acordians{
+    margin-top: 80px;
+}
+.acordians .container{
+    display: block;
+}
+.acordians .container .leftteam{
+    width: 90%;
+    margin-bottom: 50px;
+}
+.acordians .container .rightteam{
+    width: 40%;
+    margin: 0 auto;
+}
+.acordians .container .rightteam img{   
+    width: 100%;
+}
+.testmonial{
+    height: 650px;
+}
+.testmon{
+    width: 80%;
+}
+.testmon .test-head{
+    font-size: 22px;
+}
+.testmon h2{
+    font-size: 36px;
+    font-weight: normal;
+    margin-bottom: 30px;
+}
+.testmon img{
+    margin-bottom: 30px;
+}
+.testmon .france{
+    margin-bottom: 0px;
+    font-weight: bolder;
+}
+.testmon .melborn{
+    font-size: 14px;
+}
+.contact .container{
+    width: 90%;
+    margin-top: -150px;       
+}
+.contact .text{
+    width: 50%;
+}
+.contact .text h1{
+    color: white;
+    letter-spacing: 5px;
+    font-size: 30px;
+}
+.contact .inp{
+    width: 40%;    
+}
+.contact .inp input{
+    width: 95%;  
+    padding: 13px 25px ;
+}
+.contact .subscribe{
+    padding: 13px 10px;
+}
+}
+@media (max-width:768px){
+    .header{
+        border-radius:0%;
+        height: 700px;
+    }
+    
+    .nav{
+        display: block;
+    }
+    nav ul li {
+        display: none;
+    }
+    .banner{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 500px;
+    }
+    .banner .banner-desc{
+        width: 100%;
+    }
+    .banner .banner-desc h1{
+        font-size: 40px;
+        line-height: 50px;
+        padding: 30px;
+    }
+    .banner .banner-desc p{
+        font-size: 15px;
+        line-height: 35px;
+        margin-bottom: 30px;
+        padding: 0px 30px 0px 30px;
+    }
+    .banner .banner-desc .getstart{
+        margin-left: 30px;
+    }
+    .banner .banner-desc .getstart:hover{
+        color: rgb(59, 32, 159);
+        background-color: white;
+    }
+    .banner .banner-desc .discover{
+        background-color: rgb(26, 20, 50);
+        color: white;
+        border-radius: 5px;
+        padding: 13px 35px;
+        font-weight: bolder;
+    }
+    .banner .banner-desc .discover:hover{
+        color: rgb(59, 32, 159);
+        background-color: white;
+    }
+    .categories .container{
+        width: 100%;
+        display: block;
+    }
+    .seo{
+        width: 100%;
+        box-shadow: 0px 2px 10px rgb(214, 234, 255);
+    }
+    .seo .p1{
+        font-size: 33px;
+    }
+    .seo .p2{
+        font-size: 19px;
+    }
+    .research{
+        width: 100%;
+        margin-top: 30px;
+        box-shadow: 0px 2px 10px rgb(214, 234, 255);
+    }
+    .research .p1{
+        font-size: 33px;
+    }
+    .research .p2{
+        font-size: 19px;
+    } 
+    .global{
+        width: 100%;
+        margin-top: 30px;
+        box-shadow: 0px 2px 10px rgb(214, 234, 255);
+    }
+    .global .p1{
+        font-size: 33px;
+    } 
+    .global .p2{
+        font-size: 19px;
+    }
+    .teamdiscus .container{
+        display: block;
+        padding: 20px;
+    }
+    .teamdiscus .container .leftteam{
+        display: none;
+    }
+    .teamdiscus .container .rightteam{
+        width: 100%;
+    }
+    .teamdiscus .container .rightteam .ba-desc{
+        text-align: center;
+    }
+    .teamdiscus .container .rightteam .ba-heading{
+        font-size:40px;
+        line-height: 50px;
+        text-align: center;
+    }  
+    .teamdiscus .container .rightteam .ba-para{
+        text-align: center;
+        margin-top: 40px;
+    }
+    .grow{
+        text-align: center;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .grow .grow-heading{
+        font-size: 40px;
+    }
+    .container .innerdivs{
+        display: block;
+        width: 100%;
+        padding: 20px;
+    }
+    .container .innerdivs .d1{
+        width: 25%;
+        margin: 0 auto;
+    }
+    .container .innerdivs .d1-text {
+        width: 100%;
+        text-align: center;
+        margin-top: 40px;
+    }
+    .container .innerdivs .button{
+        width: 100%;
+        display: flex;
+        margin: 20px auto 30px auto;
+    }
+    .container .innerdivs .button .growbtn{
+        margin: 0 auto;
+        }
+    .container .innerdivs2{
+        display: block;
+        width: 100%;
+        padding: 20px;
+    }
+    .container .innerdivs2 .d1{
+        width: 25%;
+        margin: 0 auto;
+    }
+    .container .innerdivs2 .d1-text {
+        width: 100%;
+        text-align: center;
+        margin-top: 40px;
+    }
+    .container .innerdivs2 .button{
+        width: 100%;
+        display: flex;
+        margin: 20px auto 30px auto;
+    }
+    .container .innerdivs2 .button .growbtn{
+        margin: 0 auto;
+        }
+    .container .innerdivs3{
+        display: block;
+        width: 100%;
+        padding: 20px;
+    }
+    .container .innerdivs3 .d1{
+        width: 25%;
+        margin: 0 auto;
+    }
+    .container .innerdivs3 .d1-text {
+        width: 100%;
+        text-align: center;
+        margin-top: 40px;
+    }
+    .container .innerdivs3 .button{
+        width: 100%;
+        display: flex;
+        margin: 20px auto 30px auto;
+    }
+    .container .innerdivs3 .button .growbtn{
+        margin: 0 auto;
+        }
+    .container .innerdivs4{
+        display: block;
+        width: 100%;
+        padding: 20px;
+    }
+    .container .innerdivs4 .d1{
+        width: 25%;
+        margin: 0 auto;
+    }
+    .container .innerdivs4 .d1-text {
+        width: 100%;
+        text-align: center;
+        margin-top: 40px;
+    }
+    .container .innerdivs4 .button{
+        width: 100%;
+        display: flex;
+        margin: 20px auto 30px auto;
+    }
+    .container .innerdivs4 .button .growbtn{
+    margin: 0 auto;
+    }
+   
+    .teamdiscus2 .container .rightteam{
+        display: none;
+    }
+    .teamdiscus2 .container .leftteam{
+        width: 90%;
+    }
+    .teamdiscus2 .container .leftteam .ba-desc{
+        text-align: center;
+    }
+    .teamdiscus2 .container .leftteam .ba-heading{
+        font-size:40px;
+        text-align: center;
+        line-height: 50px;
+    }
+    .teamdiscus2 .container .leftteam .ba-para{
+        font-size: 17px;
+        text-align: center;
+    }
+
+
+    .teamgallery{
+        display: block;
+        /* align-items: center; */
+        /* justify-content: space-between; */
+        margin-top: 50px;
+    }
+    .team .container .teamgallery .img1{
+        width: 60%;
+        text-align: center;
+        overflow:hidden;
+        margin: 0 auto 40px auto;
+        box-sizing: border-box;
+        border-radius: 10px;
+    }
+    .team .container .teamgallery .img1 .image {
+        box-sizing: border-box;
+        margin-bottom: 20px;
+        overflow: hidden;
+    }
+    .team .container .teamgallery .img1 .image img{
+        width: 100%;
+        transition: transform 0.5s;
+    }
+    .team .container .teamgallery .img1 img:hover{
+        transform: scale(1.1);
+    }
+    .team .container .teamgallery .img1 .icons i{
+        padding: 4px;
+        font-size: 15px;
+    }
+
+    .acordians{
+        margin-top: 10px;
+    }
+    .acordians .container{
+        display: block;
+    }
+    .acordians .container .leftteam{
+        width: 90%;
+    }
+    .acordians .container .leftteam .ba-desc{
+        font-size: 22px;
+        text-align: center;
+    }
+    .acordians .container .leftteam .ba-heading{
+        text-align: center;
+        line-height: 50px;
+    }
+    
+    .acordians .container .rightteam{
+        display: none;
+    }
+    .testmonial{
+        height: 750px;
+        background-color: rgba(167, 167, 167, 0.219);
+    }
+    .testmonial .container{
+        display: flex;
+        justify-content: center;
+    }
+    .testmon{
+        width: 90%;
+    }
+    .testmon h2{
+        font-size: 36px;
+    }
+    .testmon img{
+        margin-bottom: 30px;
+    }
+    .testmon .france{
+        margin-top: 30px;
+        font-size: 20px;
+    }
+    .testmon .melborn{
+        font-size: 14px;
+    }
+
+
+
+
+    .contact .container{
+        width: 95%;
+        display: block;
+        padding: 20px;
+        margin-top: -180px;
+        position: relative;
+        z-index: 2;
+        
+    }
+    .contact .text{
+        width: 100%;
+        text-align: center;
+    }
+    .contact .text h1{
+        font-size: 35px;
+        letter-spacing: 0px;
+        margin-bottom: 30px;
+    }
+    .contact .inp{
+        width: 100%;    
+    }
+    .contact .inp input{
+        width:100%;  
+    }
+    .contact .btn{
+        width: 100%;
+    }
+    .contact .btn .subscribe{
+        margin: 0 auto;
+        padding: 13px 35px;
+        width: 100%;
+    }
+
+
+
+    .fotter{
+        position: relative;
+        margin-top: -103px;
+        background-color: rgb(28, 12, 91);
+        z-index: 1;
+    }
+    .fotter .container .infot{
+        display: block;
+        padding-top: 180px;
+        padding-bottom: 0px;
+        box-sizing: border-box;
+    }
+    .fotter .container .infot .about{
+        width: 100%;
+        padding-right:85px ;
+        box-sizing: border-box;
+    }
+    .fotter .container .infot .about h5{
+        padding-bottom: 5px;
+        font-size: 35px;
+    }
+    
+    .fotter .container .infot .implinks{
+        width: 100%;
+    }
+    .fotter .container .infot .implinks h5{
+        padding-bottom: 5px;
+        font-size: 35px;
+    }
+    .fotter .container .infot .fs{
+        width: 100%;
+    }
+    .fotter .container .infot .fs h5{
+        padding-bottom: 5px;
+        font-size: 35px;
+    }
+    .fotter .container .infot .contus{
+        width: 100%;
+    }
+    .fotter .container .infot .contus h5{
+        padding-bottom: 5px;
+        font-size: 35px;
+    }
+    .owner{
+        width: 100%;
+        color: white;
+        padding: 10px 0px 10px 0px;
+        font-size: 22px;
+    }
+    .owner span{
+        color: orangered;
+    }
+    .hr{
+        width: 100%;
+    }
+
+}
+
+
+
+
+@media (min-width:319px) and (max-width:480px){
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .header{
+        border-radius:0%;
+        height: 600px;
+    }
+    
+    .nav{
+        display: block;
+    }
+    nav ul li {
+        display: none;
+    }
+    .banner{
+        display: block;
+        /* align-items: center;
+        justify-content: center; */
+        height: 400px;
+    }
+    .banner .banner-desc{
+        width: 100%;
+    }
+    .banner .banner-desc h1{
+        font-size: 30px;
+        line-height: 40px;
+        padding: 0px;
+        margin-top: 40px;
+    }
+    .banner .banner-desc p{
+        font-size: 15px;
+        line-height: 30px;
+        margin-bottom: 30px;
+        padding: 0px;
+    }
+    .banner .banner-desc .getstart{
+        margin: 0 auto;
+        width: 100%;
+    }
+    .banner .banner-desc .getstart:hover{
+        color: rgb(59, 32, 159);
+        background-color: white;
+    }
+    .banner .banner-desc .discover{
+        background-color: rgb(26, 20, 50);
+        color: white;
+        width: 100%;
+        margin: 10px auto 0px auto;
+        border-radius: 5px;
+        padding: 13px 35px;
+        font-weight: bolder;
+    }
+    .banner .banner-desc .discover:hover{
+        color: rgb(59, 32, 159);
+        background-color: white;
+    }
+    .categories .container{
+        width: 100%;
+        display: block;
+        margin-top: -60px;
+
+    }
+    .seo{
+        padding: 10px;
+        width: 100%;
+        box-shadow: 0px 2px 10px rgb(206, 229, 253);
+    }
+    .seo .p1{
+        padding-top: 30px;
+        font-size: 26px;
+    }
+    .seo .p2{
+        font-size: 15px;
+    }
+    .research{
+        width: 100%;
+        padding: 10px;
+        box-shadow: 0px 2px 10px rgb(214, 234, 255);
+    }
+    .research .p1{
+        padding-top: 30px;
+
+        font-size: 26px;
+    }
+    .research .p2{
+        font-size: 15px;
+    } 
+    .global{
+        width: 100%;
+        padding: 10px;
+        box-shadow: 0px 2px 10px rgb(214, 234, 255);
+    }
+    .global .p1{
+        padding-top: 30px;
+
+        font-size: 26px;
+    } 
+    .global .p2{
+        font-size: 15px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    .teamdiscus .container .rightteam .ba-heading{
+        font-size:30px;
+        line-height: 40px;
+    }  
+    .container .rightteam .tick .tickimg img{
+        padding-right: 20px;
+        width: 60px;
+    }
+
+
+    
+    .grow .grow-heading{
+        font-size: 30px;
+    }
+    .container .innerdivs .d1{
+        width: 25%;
+        margin: 0 auto;
+    }
+
+
+/*    
+    .teamdiscus2 .container .rightteam{
+        display: none;
+    }
+    .teamdiscus2 .container .leftteam{
+        width: 90%;
+    }
+    .teamdiscus2 .container .leftteam .ba-desc{
+        text-align: center;
+    } */
+    .teamdiscus2 .container .leftteam .ba-heading{
+        font-size:30px;
+        text-align: center;
+        line-height: 40px;
+    }
+    .teamdiscus2 .container .leftteam .ba-para{
+        font-size: 15px;
+        text-align: center;
+    }
+    .teamdiscus2 .container .leftteam .tick .tickimg img{
+        padding-right: 20px;
+        width: 60px;
+    }
+
+  
+.team .container .teamheader h1{
+    font-size:30px;
+}
+
+    /* .acordians{
+        margin-top: 10px;
+    }
+    .acordians .container{
+        display: block;
+    }
+    .acordians .container .leftteam{
+        width: 90%;
+    }
+    .acordians .container .leftteam .ba-desc{
+        font-size: 22px;
+        text-align: center;
+    } */
+    .acordians .container .leftteam .ba-heading{
+        /* text-align: center; */
+        font-size: 30px;
+        line-height: 40px;
+    }
+    
+    .acordians .container .rightteam{
+        display: none;
+    }
+    .testmonial{
+        height: 850px;
+        background-color: rgba(167, 167, 167, 0.219);
+    }
+    .testmonial .container{
+        display: flex;
+        justify-content: center;
+    }
+    .testmon{
+        width: 90%;
+    }
+    .testmon h2{
+        font-size: 36px;
+    }
+    .testmon img{
+        margin-bottom: 30px;
+    }
+    .testmon .france{
+        margin-top: 30px;
+        font-size: 20px;
+    }
+    .testmon .melborn{
+        font-size: 14px;
+    }
+
+
+
+
+    .contact .container{
+        width: 95%;
+        display: block;
+        padding: 20px;
+        margin-top: -180px;
+        position: relative;
+        z-index: 2;
+        
+    }
+    .contact .text{
+        width: 100%;
+        text-align: center;
+    }
+    .contact .text h1{
+        font-size: 35px;
+        letter-spacing: 0px;
+        margin-bottom: 30px;
+    }
+    .contact .inp{
+        width: 100%;    
+    }
+    .contact .inp input{
+        width:100%;  
+    }
+    .contact .btn{
+        width: 100%;
+    }
+    .contact .btn .subscribe{
+        margin: 0 auto;
+        padding: 13px 35px;
+        width: 100%;
+    }
+
+
+
+    .fotter{
+        position: relative;
+        margin-top: -103px;
+        background-color: rgb(28, 12, 91);
+        z-index: 1;
+    }
+    .fotter .container .infot{
+        display: block;
+        padding-top: 180px;
+        padding-bottom: 0px;
+        box-sizing: border-box;
+    }
+    .fotter .container .infot .about{
+        width: 100%;
+        padding-right:85px ;
+        box-sizing: border-box;
+    }
+    .fotter .container .infot .about h5{
+        padding-bottom: 5px;
+        font-size: 35px;
+    }
+    
+    .fotter .container .infot .implinks{
+        width: 100%;
+    }
+    .fotter .container .infot .implinks h5{
+        padding-bottom: 5px;
+        font-size: 35px;
+    }
+    .fotter .container .infot .fs{
+        width: 100%;
+    }
+    .fotter .container .infot .fs h5{
+        padding-bottom: 5px;
+        font-size: 35px;
+    }
+    .fotter .container .infot .contus{
+        width: 100%;
+    }
+    .fotter .container .infot .contus h5{
+        padding-bottom: 5px;
+        font-size: 35px;
+    }
+    .owner{
+        width: 100%;
+        color: white;
+        padding: 10px 0px 10px 0px;
+        font-size: 22px;
+    }
+    .owner span{
+        color: orangered;
+    }
+    .hr{
+        width: 100%;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+}
+
+
+
+
+
+
+
+
+
+
